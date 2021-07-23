@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IRRGO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-04 05:21:27 "/>
+        <attribute name="created" value="SVJSR087U0VWRU4tUzsyMDIxLTA3LTA0OyIwNDo1NDowNSAiOzIwODk="/>
+        <attribute name="edited" value="SVJSR087U0VWRU4tUzsyMDIxLTA3LTA0OyIwNToyMToyNyAiOzM7MjE5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOTA1, NOTA2, NOTA3, NOTA4, MEDIA, TOTAL" type="Real" array="False" size=""/>
+            <input variable="NOTA1"/>
+            <input variable="NOTA2"/>
+            <input variable="NOTA3"/>
+            <input variable="NOTA4"/>
+            <assign variable="MEDIA" expression="(NOTA1+NOTA2+NOTA3+NOTA4)/4"/>
+            <output expression="MEDIA" newline="True"/>
+            <assign variable="TOTAL" expression="NOTA1+NOTA2+NOTA3+NOTA4"/>
+            <output expression="TOTAL" newline="True"/>
+            <if expression="MEDIA&gt;=5">
+                <then>
+                    <output expression="&quot;APROVADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;REPROVADO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
