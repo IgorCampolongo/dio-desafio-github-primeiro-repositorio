@@ -8,6 +8,10 @@ Atualmente tem anotações de 3 cursos, sendo eles:
 #### 2 - conceitos iniciais sobre estrutura de dados, arrays e registro
 #### 3 - Introdução ao Git e ao GitHub
 
+#### 4 - SQL SERVER - Criando suas primeiras consultas
+
+#### 5 - Dominando IDEs Java
+
 ## Links Úteis
 
 [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
